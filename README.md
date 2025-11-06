@@ -2,7 +2,7 @@
 
 ### 📘 Project Overview
 This Power BI project analyzes **manufacturing and operational performance** inspired by Regal Rexnord’s business model.  
-It focuses on **financial forecasting, shipment operations, and exception insights** across three product lines — PES, IPS, and AMC.  
+It focuses on **financial forecasting, shipment operations, and exception insights** across three product lines: PES, IPS, and AMC.  
 The goal is to monitor **profitability, shipment delays, and forecast accuracy** using automated DAX measures and SQL-backed data models.
 
 ---
@@ -21,7 +21,7 @@ The goal is to monitor **profitability, shipment delays, and forecast accuracy**
 ### 📊 Key Insights & Metrics
 
 #### 1️⃣ Financial Performance
-KPIs: **Sales, COGS, Gross Profit Margin %, Booking $, Shipped $, Book-to-Bill Ratio**  
+KPIs: **Sales, COGS, Gross Profit Margin %, Booking$, Shipped$, Book-to-Bill Ratio**  
 Trends: Monthly sales growth, product mix, and revenue by end market.
 
 #### 2️⃣ Operational Performance
