@@ -1,47 +1,53 @@
-# Regal Rexnord Forecasting Dashboard (Portfolio Project)
+# Manufacturing Operations Forecasting Dashboard (Power BI + SQL)
 
-### 📊 Overview
-This portfolio project is inspired by **Regal Rexnord’s** operations and demonstrates **financial and operational forecasting** using **Power BI** and **SQL**.  
-It simulates how a manufacturing company could analyze **sales, cost, and operational metrics** to forecast performance, detect exceptions, and monitor key business KPIs.
-
----
-
-### ⚙️ Project Highlights
-- **Financial Forecasting:** Modeled revenue, cost of goods sold (COGS), and gross profit margin trends using historical data patterns.  
-- **Operational Forecasting:** Forecasted shipment counts, production output, and order cycle times.  
-- **Exception Reporting:** Designed exception alerts to flag underperforming regions, late shipments, and forecast deviations.  
-- **Interactive Dashboards:** Developed in **Power BI** with DAX measures, slicers, and visual interactivity for executive insights.  
-- **Data Source:** Fictional dataset generated in **SQL Server** to represent real-world manufacturing operations.
+### 📘 Project Overview
+This Power BI project analyzes **manufacturing and operational performance** inspired by Regal Rexnord’s business model.  
+It focuses on **financial forecasting, shipment operations, and exception insights** across three product lines — PES, IPS, and AMC.  
+The goal is to monitor **profitability, shipment delays, and forecast accuracy** using automated DAX measures and SQL-backed data models.
 
 ---
 
 ### 🧰 Tools & Technologies
-**Power BI**, **SQL Server**, **Excel**, **DAX**, **ETL Modeling**, **Forecasting Techniques**, **KPI Design**
+| Category | Tools Used |
+|-----------|-------------|
+| BI Platform | Microsoft Power BI Desktop & Service |
+| Data Source | Simulated Manufacturing Financial & Shipment Data |
+| Modeling | DAX, Power Query, Star Schema (Fact & Dimension Tables) |
+| ETL | SQL Server (data transformation & joins) |
+| Visualization | Power BI KPI Cards, Combo Charts, Forecasting Line Charts |
 
 ---
 
-### 🖼️ Dashboard Previews
-Below are the three dashboard pages included in this project:
+### 📊 Key Insights & Metrics
 
-#### 1️⃣ Financial Forecasting Dashboard
-![Financial Forecasting Dashboard](Screenshots/01-Financial_Forecasting_Dashboard.png)
+#### 1️⃣ Financial Performance
+KPIs: **Sales, COGS, Gross Profit Margin %, Booking $, Shipped $, Book-to-Bill Ratio**  
+Trends: Monthly sales growth, product mix, and revenue by end market.
 
-#### 2️⃣ Operational Forecasting Dashboard
-![Operational Forecasting Dashboard](Screenshots/02-Operational_Performance_Dashboard.png)
+#### 2️⃣ Operational Performance
+KPIs: **Total Orders Booked, Total Orders Shipped, Avg Days from Booking to Shipment, Avg Shipments per Day**  
+Trends: Regional shipment distribution, booking vs shipment delays, end-market performance.
 
-#### 3️⃣ Exception & Forecasting Insights
-![Exception and Forecasting Insights](Screenshots/03-Exception_and_Forecasting_Insights.png)
-
----
-
-### ⚠️ Disclaimer
-> This project is **purely educational and self-created**.  
-> It does **not** use any real Regal Rexnord data or confidential material.  
-> All numbers, figures, and visuals are **fictional** and used solely for demonstration purposes to showcase analytical and forecasting skills.
+#### 3️⃣ Exception & Forecast Insights
+KPIs: **Delayed Shipment %, Average Delay Days, Forecasted Shipment (Next 3 Months), Top Customer by Shipment Value**  
+Trends: Delay trends over time, forecast accuracy, and high-risk customer delays.
 
 ---
 
-### 📎 Author
-**Mohammed Khan**  
-Microsoft Certified Power BI Data Analyst (PL-300)  
-GitHub Portfolio – Data Analytics | SQL | Power BI | Forecasting
+### 🧩 Data Model Summary
+Star schema with **Fact** tables for Bookings, Shipments, and Sales  
+and **Dimension** tables for Customer, Date, Region, Product, End Market, and Segment.  
+DAX measures built for:  
+`Gross Profit Margin %`, `Book-to-Bill`, `Forecasted Shipments (Next 3 Months)`, `Delayed Shipment %`, and `Top Customer by Value`.
+
+---
+
+### 🖼️ Dashboard Preview
+#### Page 1: Financial Performance
+![Financial Dashboard](Screenshots/01-Financial_Forecasting_Dashboard.png)
+
+#### Page 2: Operational Performance
+![Operational Dashboard](Screenshots/02-Operational_Performance_Dashboard.png)
+
+#### Page 3: Exception & Forecast Insights
+![Exception Dashboard](Screenshots/03-Exception_and_Forecasting_Insights.png)
