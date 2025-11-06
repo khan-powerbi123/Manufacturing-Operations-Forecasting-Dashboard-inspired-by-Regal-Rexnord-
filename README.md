@@ -24,13 +24,13 @@ It simulates how a manufacturing company could analyze **sales, cost, and operat
 Below are the three dashboard pages included in this project:
 
 #### 1️⃣ Financial Forecasting Dashboard
-*(insert screenshot here)*
+![Financial Forecasting Dashboard](images/Financial_Forecasting_Dashboard.png)
 
 #### 2️⃣ Operational Forecasting Dashboard
-*(insert screenshot here)*
+![Operational Forecasting Dashboard](images/Operational_Performance_Dashboard.png)
 
 #### 3️⃣ Exception & Forecasting Insights
-*(insert screenshot here)*
+![Exception and Forecasting Insights](images/Exception_and_Forecasting_Insights.png)
 
 ---
 
